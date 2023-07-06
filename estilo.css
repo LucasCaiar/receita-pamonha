@@ -1,0 +1,81 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+3&family=Source+Serif+4:wght@400;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  width: 100%;
+  height: 100vh;
+  font-family: "Source Serif 4", sans-serif;
+}
+.top {
+  height: 52%;
+  background-color: #feece0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 56px;
+}
+.top > img {
+  width: 409px;
+  height: 293px;
+}
+.top p {
+  margin: 30px 0;
+}
+h1 {
+  font-size: 72px;
+  color: #58190a;
+}
+.top p {
+  color: #58190a;
+}
+h2,
+.top p {
+  font-size: 38px;
+}
+.buttons {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+.buttons span {
+  font-size: 35px;
+  color: #9b6647;
+}
+.buttons button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+.buttons button:hover {
+  filter: drop-shadow(0.6px 0.6px 0.6px #58190a);
+}
+.buttons button:active {
+  filter: none;
+}
+
+.bottom {
+  height: 48%;
+  background-color: #9b6647;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 64px;
+}
+.bottom h2 {
+  display: inline;
+  margin-left: 12px;
+}
+.bottom li {
+  font-size: 28px;
+  color: #fff;
+  font-family: "Source Sans 3", sans-serif;
+}
+h2 {
+  color: #feece0;
+}
+ul, ol {
+    padding-left: 26px;
+    padding-top: 32px;
+}

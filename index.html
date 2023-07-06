@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Receita com contador</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <section class="top">
+        <img src="imagens/ilustracao-de-pamonha.png" alt="ilustração de pamonha desenhada a mão">
+        <div>
+            <h1>Pamonha</h1>
+            <p>Prato típico com milho verde ralado</p>
+            
+            <div class="buttons">
+                <span>Porções</span>
+                <button onclick="decreaseCounter()">
+                    <img src="imagens/less2.svg" alt="botão menos">
+                </button>
+                <span id="counter">03</span>
+                <button onclick="increaseCounter()">
+                    <img src="imagens/botao-plus.svg" alt="botão mais">
+                </button>
+            </div>
+        </div>
+    </section>
+    <section class="bottom">
+        <div class="col1">
+                <img src="imagens/botao-hamper.svg" alt="botão cesto de compras">
+            <h2>Ingredientes</h2>
+            <ul>
+                <li> 1 espiga de milho verde</li>
+                <li> 1 colher de sopa de açúcar</li>
+                <li> 1 colher de sopa de manteiga</li>
+                <li> Sal a gosto</li>
+                <li> Palha de milho (para embrulhar)</li> 
+            </ul>
+        </div>
+        <div class="col2">
+                <img src="imagens/botao-pan.svg" alt="botão panela">
+            <h2>Modo de Preparo</h2>
+            <ol>
+                <li> Descasque a espiga de milho e corte os grãos.</li>
+                <li> Bata o milho, açúcar, manteiga e sal no liquidificador.</li>
+                <li> Coloque a massa nas palhas de milho e feche bem.</li>
+                <li> Cozinhe em água fervente por cerca de 40 minutos.</li>
+                <li> Deixe esfriar e sirva.</li> 
+            </ol>
+        </div>
+    </section>
+    <script src="main.js"></script>
+</body>
+</html>
